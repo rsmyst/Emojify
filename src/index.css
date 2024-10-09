@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h3 {
+  color: #00ff00;
+}
+
+input,
+button {
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  background-color: #333333;
+  color: #ffffff;
+  max-width: 600px;
+  width: 75%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.word-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+select {
+  border: none;
+  border-radius: 5px;
+  background-color: #333333;
+  color: white;
+  padding: 5px;
+}
+
+button {
+  background-color: #00ff00;
+  color: #121212;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00cc00;
+}
+
+button:active {
+  background-color: #009900;
+}
+
+.voice-button {
+  background-color: #00ff00;
+  color: #121212;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.voice-button.active {
+  background-color: #ff0000;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+div {
+  text-align: center;
+}
