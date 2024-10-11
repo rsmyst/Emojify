@@ -1,6 +1,11 @@
 # Emojify
 
 Emojify is a web application that converts text into emoji-enhanced text. It also includes voice recognition for input and sentiment analysis.
+![image](https://github.com/user-attachments/assets/b3bb0f8f-57de-427c-be2b-bfe6ccee0e02)
+
+
+https://github.com/user-attachments/assets/53e517c4-637c-44bd-9cdd-b3f8cdf65b4d
+
 
 ## Setup
 
