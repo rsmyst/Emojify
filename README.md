@@ -12,8 +12,8 @@ https://github.com/user-attachments/assets/53e517c4-637c-44bd-9cdd-b3f8cdf65b4d
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/emojify.git
-   cd emojify
+   git clone https://github.com/rsmyst/Emojify.git
+   cd Emojify
    ```
 
 2. Install dependencies:
